@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+    <style>
+        body{
+           background-image:url('./wp1877597.jpg');
+        }
+        .shop{
+            width: 50%;
+            background-image: url('./OIP.jpg');
+            border-radius: 10px;
+            margin: 20%;
+            background-color: #e8f1f3;
+            
+        }
+        .men{
+            display: none;
+            margin-left: 10%;
+            margin-top: 4px;
+            padding: 2px;
+        }
+        .shop:hover .men{
+            display: block;
+        }
+        
+        .men .button{
+            display: inline-block;
+            margin: 70%;
+        }
+        .press{
+            display: none;
+            margin-left: 14%;
+        }
+        .child:hover .press{
+            display: block;
+        }
+        .shop button{
+            padding: 3px;
+            border:solid;
+            border-radius: 6px;
+            background-color: rgb(135, 183, 223);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="shop">
+        <button style="margin-top: 6px; margin-left: 6px; margin-bottom: 6px;">Shopping</button><br/>
+        <div class="men">  
+            <button style="margin-bottom: 6px;"> Men</button><br/>
+            <button style="margin-bottom: 6px;">Women</button><br/>
+           <div class="child"> 
+               <button style="margin-bottom: 6px; display: block;">Childerns >></button>
+                 <div class="press">
+                    <button style="margin-bottom: 6px;">Clothes</button><br/>
+                    <button style="margin-bottom: 6px;">Glasses</button><br/>
+                
+
+                 </div>
+           
+        </div>     
+        </div>
+    </div>
+</body>
+</html>
